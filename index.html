@@ -6,16 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="script.js"></script>
+    <style>
+    .bar{
+        width: 20px;
+        height: 20px;
+        background: blue;
+        margin: 3px;
+        float:left;
+    }
+    #wrap2{
+      margin-top: 100px;
+    }
+    
+    </style>
 </head>
 <body>
     
     <div id='wrap'>
         <h2>Results of Dice rolls:</h2>
-        <script>
-    
-        printValues();
-    </script>
     </div>
-   
+      
+  
+
+    <div id="wrap2"> 
+            <h2>Bar Chart:</h2>
+         
+    </div>
+    <script>
+    
+            printValues();
+            drawGraph();
+            
+        </script>
 </body>
 </html>
